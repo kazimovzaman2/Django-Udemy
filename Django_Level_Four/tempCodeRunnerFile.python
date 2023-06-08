@@ -1,0 +1,5 @@
+import requests
+
+url = requests.get("https://preview.colorlib.com/#easy")
+
+htmltext = url.text
