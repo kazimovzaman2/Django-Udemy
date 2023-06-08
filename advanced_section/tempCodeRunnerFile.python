@@ -1,0 +1,20 @@
+#  12
+#  17
+#  59
+#
+
+hour = int(input("take hours"))
+mins = int(input("take mins"))
+dura = int(input("take duration"))
+
+
+
+mimnutes = (mins + dura)%60
+
+
+hours = int(hour + (mins + dura)/60) %24
+
+
+
+
+print(hours, ":", mimnutes)
